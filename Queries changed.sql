@@ -43,4 +43,5 @@ and number_of_telephone.id = tar_in_tel.tel_id and Tarifs.id = tar_in_tel.tar_id
 /*Select DISTINCT (Select SUM(kolvo) from addservices, used_s where addservices.id = used_s.s_id and  addservices.id = 3 and DATE_PART('month', used_s.udate) = 7) as KOLVO_GB,
 (Select (SUM(kolvo)) from addservices, used_s where addservices.id = used_s.s_id and  addservices.id = 3 and DATE_PART('month', used_s.udate) = 7)*20 as COST_GB
 from addservices, used_s
+
 where addservices.id = used_s.s_id and  addservices.id = 3 and DATE_PART('month', used_s.udate) = 7*/
