@@ -34,3 +34,4 @@ and DATE_PART('month', used_s.udate) = DATE_PART('month', CURRENT_DATE)
 and tar_in_tel.tel_id = number_of_telephone.id and tar_in_tel.tar_id = Tarifs.id and addservices.id = used_s.s_id);*/
 
 
+
